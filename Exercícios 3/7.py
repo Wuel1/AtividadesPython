@@ -1,0 +1,10 @@
+input('Aperte Enter para iniciar o programa')
+print('Digite dois números')
+n1 = int(input('Digite o primeiro número:'))
+n2 = int(input('Digite o segundo número:'))
+intervalo = list(range(n1 + 1,n2))
+
+print('O intervalo entre esses dois números é:')
+print(intervalo)
+input('Aperte ENTER para fechar')
+quit()
